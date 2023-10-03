@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    text-decoration: none;
+
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/WhatsApp\ Image\ 2023-10-03\ at\ 01.01.08.jpeg) center/cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/WhatsApp\ Image\ 2023-10-03\ at\ 01.01.08.jpeg);
+}
+
+nav div {
+    padding: 5px 40px;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+}
+
+nav img {
+    color: #fff;
+}
+
+nav ul li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: brown;
+    transition: 0.3s linear;
+}
+
+.icons {
+    position: relative;
+}
+
+.item-counter {
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top: -0.85rem;
+    right: 2rem;
+    text-align: center;
+}
+
+.baslik {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #fff;
+    margin-left: 400px;
+}
+
+.baslik h1 {
+    font-size: 5.25rem;
+    letter-spacing: 5px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.baslik h3 {
+    font-size: 2.75rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.baslik button {
+    font-size: 1rem;
+    border: 1px solid white;
+    background: transparent;
+    color: #fff;
+    padding: 12px;
+    border-radius: 0.25rem;
+}
+
+.baslik button:hover {
+    background: #fff;
+    color: orangered;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container button {
+    padding: 10px 18px;
+    background-color: hsl(21, 62%, 45%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    display: block;
+    margin: 3rem;
+}
+
+.container button:hover {
+    background-color: #DA8253;
+    color: #000;
+}
+
+.container-item {
+    text-align: center;
+
+}
+
+.container-item:hover .container-item-1 {
+    display: block;
+    color: hsl(21, 62%, 45%);
+}
+
+.container-item:hover .container-icon {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: hsl(21, 62%, 45%);
+    text-align: center;
+}
+
+.container-item:hover .container-icon i {
+    color: #fff;
+    font-size: 15px;
+}
+
+.container-item:hover .container-item-3 {
+    display: block;
+}
+
+.container-item p {
+    margin-top: 10px;
+}
+
+.container h2 {
+    margin-top: 20px;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+
+}
+
+.container-item-1 {
+    background-image: url(./img/product-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 13rem;
+    width: 26rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.container-icon{
+    display: none;
+}
+
+.container-icon i {
+    display: block;
+    margin-top: 8px;
+}
+.container-icon:hover {
+    background-color: #DA8253 !important;
+}
+
+.container-item-2 {
+    background-image: url(./img/product-9.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 13rem;
+    width: 26rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-item-3 {
+    background-image: url(./img/product-10.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 13rem;
+    width: 26rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
